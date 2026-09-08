@@ -1,0 +1,17 @@
+{
+  "name": "voting-app",
+  "version": "1.0.0",
+  "description": "A simple voting application built with HTML, CSS, and JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server -p 3000",
+    "build": "echo 'No build required for this static site'"
+  },
+  "keywords": [
+    "voting",
+    "app",
+    "javascript"
+  ],
+  "author": "error0061983-hub",
+  "license": "MIT"
+}

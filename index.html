@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🗳️ Voting App</h1>
+        <p class="subtitle">Cast your vote now!</p>
+        
+        <div class="voting-section">
+            <h2>What's your favorite programming language?</h2>
+            
+            <div class="options">
+                <button class="vote-btn" data-option="JavaScript">
+                    <span class="option-name">JavaScript</span>
+                    <span class="vote-count" id="js-count">0</span>
+                </button>
+                
+                <button class="vote-btn" data-option="Python">
+                    <span class="option-name">Python</span>
+                    <span class="vote-count" id="python-count">0</span>
+                </button>
+                
+                <button class="vote-btn" data-option="Java">
+                    <span class="option-name">Java</span>
+                    <span class="vote-count" id="java-count">0</span>
+                </button>
+                
+                <button class="vote-btn" data-option="C++">
+                    <span class="option-name">C++</span>
+                    <span class="vote-count" id="cpp-count">0</span>
+                </button>
+                
+                <button class="vote-btn" data-option="Go">
+                    <span class="option-name">Go</span>
+                    <span class="vote-count" id="go-count">0</span>
+                </button>
+            </div>
+            
+            <div class="results-section">
+                <h3>📊 Results</h3>
+                <div id="results-chart"></div>
+                <p id="total-votes">Total votes: <strong>0</strong></p>
+            </div>
+        </div>
+        
+        <button class="reset-btn" onclick="resetVotes()">🔄 Reset Votes</button>
+        
+        <footer>
+            <p>Made with ❤️ using HTML, CSS & JavaScript</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
